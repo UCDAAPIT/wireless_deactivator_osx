@@ -18,6 +18,7 @@
 		94D168BF193CE62A00990355 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1689E193CE62A00990355 /* Cocoa.framework */; };
 		94D168C7193CE62A00990355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D168C5193CE62A00990355 /* InfoPlist.strings */; };
 		94D168C9193CE62A00990355 /* WirelessDeactivatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D168C8193CE62A00990355 /* WirelessDeactivatorTests.m */; };
+		94D168D3193CE6E900990355 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D168D2193CE6E900990355 /* CoreWLAN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		94D168C4193CE62A00990355 /* WirelessDeactivatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WirelessDeactivatorTests-Info.plist"; sourceTree = "<group>"; };
 		94D168C6193CE62A00990355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94D168C8193CE62A00990355 /* WirelessDeactivatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessDeactivatorTests.m; sourceTree = "<group>"; };
+		94D168D2193CE6E900990355 /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D168D3193CE6E900990355 /* CoreWLAN.framework in Frameworks */,
 				94D1689F193CE62A00990355 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +98,7 @@
 		94D1689D193CE62A00990355 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94D168D2193CE6E900990355 /* CoreWLAN.framework */,
 				94D1689E193CE62A00990355 /* Cocoa.framework */,
 				94D168BD193CE62A00990355 /* XCTest.framework */,
 				94D168A0193CE62A00990355 /* Other Frameworks */,
